@@ -48,11 +48,11 @@ Dataset include 7378 images, 4988 dog images, 2390 cat images.
 Image shape: (3,512,512)
 
 Hyperparameters(current practice):
-epochs: 15
-batch size: 32
-learning_rate: 0.01
-Loss function: Cross Entropy (nn.CrossEntropyLoss)
-Optimizer: SGD, momentum=0.8
+ - epochs: 15
+ - batch size: 32
+ - learning_rate: 0.01
+ - Loss function: Cross Entropy (nn.CrossEntropyLoss)
+ - Optimizer: SGD, momentum=0.8
 
 
 **Dev set accuracy: 98.85%**
@@ -70,11 +70,11 @@ Dataset contains 4988 dog images with 25 labels, each breed has around 200 image
 Image shape: (3,300,300)
 
 Hyperparameters(current practice):
-epochs: 20
-batch size: 32
-learning_rate: 0.01
-Loss function: Cross Entropy (nn.CrossEntropyLoss)
-Optimizer: SGD, momentum=0.9
+ - epochs: 20
+ - batch size: 32
+ - learning_rate: 0.005
+ - Loss function: Cross Entropy (nn.CrossEntropyLoss)
+ - Optimizer: SGD, momentum=0.9
 
 Dev set accuracy: 86.69%
 
@@ -90,11 +90,11 @@ Dataset contains 2390 cat images with 12 labels, each breed has around 220 image
 Image shape: (3,512,512)
 
 Hyperparameters(current practice):
-epochs: 20
-batch size: 32
-learning_rate: 0.005
-Loss function: Cross Entropy (nn.CrossEntropyLoss)
-Optimizer: Adam
+ - epochs: 20
+ - batch size: 32
+ - learning_rate: 0.005
+ - Loss function: Cross Entropy (nn.CrossEntropyLoss)
+ - Optimizer: Adam
 
 Dev set accuracy: 80.58%
 
